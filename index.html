@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- google icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <title>Document</title>
+
+    <!-- tailwindcss cdn link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+        theme: {
+            extend: {
+            colors: {
+                clifford: '#da373d',
+            }
+            }
+        }
+        }
+    </script>
+</head>
+<body>
+    
+    <div class="customer bg-[#F9FAFE] h-screen">
+        <div class="container px-10">
+            <div class="pending">
+                <h1 class="text-2xl my-3 text[#162849]">What's Happening</h1>
+                <div class="flex gap-5">
+                    <div class="card w-[297px] bg-white rounded-3xl text-center py-5 px-3">
+                        <img class="w-[102px] h-[102px] m-auto" src="./img/pending-icon.svg" alt="">
+                        <h2 class="text-xl mb-3 text-[#162849]">Pending invoices</h2>
+                    </div>
+                    <div class="card w-[297px] bg-white rounded-3xl text-center py-5 px-3">
+                        <img class="w-[102px] h-[102px] m-auto" src="./img/pending-icon.svg" alt="">
+                        <h2 class="text-xl mb-3 text-[#162849]">Pending invoices</h2>
+                    </div>
+                    <div class="card w-[297px] bg-white rounded-3xl text-center py-5 px-3">
+                        <img class="w-[102px] h-[102px] m-auto" src="./img/pending-icon.svg" alt="">
+                        <h2 class="text-xl mb-3 text-[#162849]">Pending invoices</h2>
+                    </div>
+                    <div class="card w-[297px] bg-white rounded-3xl text-center py-5 px-3">
+                        <img class="w-[102px] h-[102px] m-auto" src="./img/pending-icon.svg" alt="">
+                        <h2 class="text-xl mb-3 text-[#162849]">Pending invoices</h2>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="quick mt-10">
+                <h1 class="text-2xl my-3 text[#162849]">Quick tasklist</h1>
+                <div class="flex gap-5">
+                    <div class="card lg:flex items-center gap-5 w-[423px] h-[195px] p-5 bg-white rounded-3xl">
+                        <img class="w-12" src="./img/box-icon.svg" alt="">
+                        <h2 class="item-center text-xl text[
+                        #162849]">Add product details</h2>
+                        <span class="material-symbols-outlined mt-2 text-amber-600">
+                            arrow_right_alt
+                        </span>
+                    </div>
+
+                    <div class="card lg:flex items-center gap-5 w-[423px] h-[195px] p-5 bg-white rounded-3xl">
+                        <img class="w-12" src="./img/man-icon.svg" alt="">
+                        <h2 class="item-center text-xl text[
+                        #162849]">Add product details</h2>
+                        <span class="material-symbols-outlined mt-2 text-indigo-600">
+                            arrow_right_alt
+                        </span>
+                    </div>
+
+                    <div class="card lg:flex items-center gap-5 w-[423px] h-[195px] p-5 bg-white rounded-3xl">
+                        <img class="w-12" src="./img/box-icon-2.svg" alt="">
+                        <h2 class="item-center text-xl text[
+                        #162849]">Add product details</h2>
+                        <span class="material-symbols-outlined mt-2 text-rose-600">
+                            arrow_right_alt
+                        </span>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
